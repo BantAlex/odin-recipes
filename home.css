@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(1, 74, 100);
+    background-color: rgb(1, 70, 80);
     scroll-behavior: smooth;
 }
 
@@ -42,4 +42,9 @@ img{
     border: 3px solid rgb(221, 179, 56);
     height: 200px;
     width: 300px;
+}
+
+img:hover{
+    height: 205px;
+    width: 305px;
 }
