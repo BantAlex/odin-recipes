@@ -1,8 +1,14 @@
 body{
     background-color: rgb(1, 70, 80);
     scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column; /* This is applied only on the home page for practice*/
 }
 
+.highlighted{
+    color: rgb(221, 179, 56);
+
+}
 h1{
     color: rgb(221, 179, 56);
     text-align: center;
@@ -33,6 +39,11 @@ li{
     list-style-type: none;
 }
 
+.recipes{
+    padding: 0;
+    margin: 0;
+}
+
 a{
     color: rgb(221, 179, 56);
 }
@@ -42,9 +53,12 @@ img{
     border: 3px solid rgb(221, 179, 56);
     height: 200px;
     width: 300px;
+    border: dotted;
+
 }
 
 img:hover{
     height: 205px;
     width: 305px;
 }
+
