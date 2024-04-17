@@ -1,0 +1,41 @@
+
+/* ========== BOX MODEL ========== //
+//
+// Margin      | e.g. margin: 10px 10px 10px 10px (top | right | bottom | left)  
+// Border      | e.g. border: 2px dotted green
+// Padding     | e.g. padding: 10px (shorthand)
+// Content     | 
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.test{
+    /* Text */
+    background-color: yellow;
+    color:black;
+    text-align: center;
+    /* Box Model */
+    width: 500px;
+    height: 50px;
+    padding: 50px;
+    
+}
+
+.index{
+    background-color: red;
+    /* Text */
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    /* Box Model */
+    height: 50px;
+    width: 500px;
+    padding: 50px;
+
+}
+
+
