@@ -2,14 +2,25 @@ body{
     background-color: rgb(1, 70, 80);
     scroll-behavior: smooth;
     /* This is applied only on the home page for practice*/
+
+}
+
+.recipes{
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .highlighted{
     color: rgb(221, 179, 56);
 
 }
+
 h1{
     color: rgb(221, 179, 56);
     text-align: center;
@@ -42,11 +53,6 @@ li{
     list-style-type: none;
 }
 
-.recipes{
-    padding: 0;
-    margin: 0;
-}
-
 a{
     color: rgb(221, 179, 56);
 }
@@ -56,8 +62,7 @@ img{
     border: 3px solid rgb(221, 179, 56);
     height: 200px;
     width: 300px;
-    border: dotted;
-
+   
 }
 
 img:hover{
@@ -65,3 +70,7 @@ img:hover{
     width: 315px;
 }
 
+/* img:hover::after{
+    height: 200px;
+    width: 300px;
+}  Add a before too.*/
