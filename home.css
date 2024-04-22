@@ -5,12 +5,13 @@ body{
 
 }
 
-.recipes{
+.container{
     padding: 0;
     margin: 0;
+    gap: 3px;
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 20px;
 }
 
 .highlighted{
@@ -23,25 +24,16 @@ h1{
     text-align: center;
     font-weight: bold;
     text-decoration: underline 2px;
+    display: flex;
+    justify-content: center;
 }
 
 h3,h4{
     color: rgb(4, 169, 185);
     text-align: center;
     font-weight: bold;
-    /* Trying to add a stroke to make it look better
-    
-    -webkit-text-stroke: 1px rgb(221, 179, 56);
-
-    OR BETTER 
-    
-    text-shadow: -1px -1px 0 rgb(221, 179, 56),  
-    1px -1px 0 rgb(221, 179, 56),
-    -1px 1px 0 rgb(221, 179, 56),
-    1px 1px 0 rgb(221, 179, 56);
-
-    But yeah, it looks like ass
-    */
+    display: flex;
+    justify-content: center;
 }
 
 li{
@@ -59,7 +51,6 @@ img{
     border: 3px solid rgb(221, 179, 56);
     height: 200px;
     width: 300px;
-   
 }
 
 img:hover{
